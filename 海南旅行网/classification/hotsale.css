@@ -1,0 +1,23 @@
+.top-ul-li {
+    font-size: 20px;
+    margin: 0px 15px 4px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    /* color: black; */
+    color: black;
+}
+
+.border1 {
+    padding: 0.25rem;
+    background-color: rgb(250, 229, 232);
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
