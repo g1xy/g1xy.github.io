@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../信息/personal message.css">
+    <title>用户信息</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light topone">
+        <a class="navbar-brand" href="#">
+            <img src="../image/logo.2.jfif" alt="logo" width="80" style="opacity: 0.7; border-radius: 15%;" class="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link top-ul-li" href="../index/index.html">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="../classification/hotsale.html" target="_black">分类</a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="../购物车/cart.html" target="_black">购物车</a>
+                </li>
+                <li class="nav-item top-ul-li active">
+                    <a class="nav-link" href="../信息/personal message.html" target="_black">用户信息</a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="../详情页/订单详情.html" target="_black">订单详情</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="请输入花名" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+            </form>
+        </div>
+    </nav>
+    <div class="form-box mt-3">
+        <div class="container">
+            <h3 class="title" style="text-align: center;">个人信息</h3>
+            <hr color="pink" size="5">
+        </div>
+    </div>
+
+    <div class="back-big">
+        <div class="row padd">
+            <div class="col-md-3 back-x1">
+                <nav class="navbar navbar-expand-lg navbar-light topone">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto wid-100">
+
+                            <li class="nav-item top-ul-li  bor-yuan">
+                                <a class="nav-link" href="personal message.html">账号</a>
+                            </li>
+                            <li class="nav-item top-ul-li bor-yuan active">
+                                <a class="nav-link" href="#">个人信息</a>
+                            </li>
+                            <li class="nav-item top-ul-li bor-yuan">
+                                <a class="nav-link" href="../购物车/cart.html">我的账单</a>
+                            </li>
+                            <li class="nav-item top-ul-li bor-yuan">
+                                <a class="nav-link" href="../信息/personal message.html">购物车</a>
+                            </li>
+                            <li class="nav-item top-ul-li bor-yuan">
+                                <a class="nav-link" href="../详情页/订单详情.html">我的通知</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-8">
+                <div class="back2 m-2">
+                    <h3>个人信息</h3>
+                    <div class="row">
+                        <div class="title bian">
+                            头像
+                        </div>
+                        <div class="content bian">
+                            <img width="150" src="../image/photo.jpg" alt="头像">
+                        </div>
+                        <input type="file">
+                    </div>
+                    <div class="row">
+                        <div class="title bian">
+                            性别
+                        </div>
+                        <div class="content bian">
+                            <select>
+                                <option selected value="男">男</option>
+                                <option value="女">女</option>
+                                <option value="其他">其他</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title bian">
+                            生日
+                        </div>
+                        <div class="content bian">
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title bian">
+                            电话
+                        </div>
+                        <div class="content bian">
+                            <input type="tel">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="title bian">
+                            姓名
+                        </div>
+                        <div class="content bian">
+                            <input type="text" placeholder="姓名">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title bian">
+                            收货地址
+                        </div>
+                        <div class="content bian">
+                            <input type="text" placeholder="收货地址">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
