@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>首页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../矢量图/icon.css">
+    <link rel="stylesheet" href="../classification/hotsale.css">
+    <style>
+        ul.nav-tabs {
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        }
+        
+        ul.nav-tabs li {
+            margin: 0;
+            border-top: 1px solid #ddd;
+        }
+        
+        ul.nav-tabs li:first-child {
+            border-top: none;
+        }
+        
+        ul.nav-tabs li.active a,
+        ul.nav-tabs li.active a:hover {
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+        
+        ul.nav-tabs li:first-child a {
+            border-radius: 4px 4px 0 0;
+        }
+        
+        ul.nav-tabs li:last-child a {
+            border-radius: 0 0 4px 4px;
+        }
+        
+        ul.nav-tabs {
+            position: fixed;
+            top: 206px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#myScroll">
+    <nav class="navbar navbar-expand-lg navbar-light topone">
+        <a class="navbar-brand" href="#">
+            <img src="../image/logo.2.jfif" alt="logo" width="80" style="opacity: 0.7; border-radius: 15%;" class="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link top-ul-li" href="#">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="../classification/hotsale.html" target="_black">分类</a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="#carousel">新品展示</a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="../信息/personal message.html">个人中心</a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link " href="../购物车/cart.html">购物车</a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="#">联系我们</a>
+                </li>
+
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="../信息/personal message.html">个人</a>
+                </li>
+                <li class="nav-item top-ul-li">
+                    <a class="nav-link" href="#">帮助</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="请输入花名" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+
+            <div class="row mt-2" id="k">
+                <div class="col-xs-3" id="myScroll">
+                    <ul class="nav nav-tabs nav-stacked" data-offset-top="125">
+                        <li class="active"><a href="#1">导航</a></li>
+                        <li><a href="#2">商品</a></li>
+                        <li><a href="#3">网页声明</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-9">
+                    <div id="1" style="border: 1px solid pink;" class="mt-2">
+                        <div class="carousel container" id="carousel">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active iconfont hua1">
+
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="iconfont hua2">
+
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="iconfont hua3">
+
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3" class="iconfont hua3">
+
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../image/advertisement.jpg" class="d-block w-100" alt="...">
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../image/2.JPG" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../image/3.JPG" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../image/1.JPG" class="d-block w-100" alt="...">
+
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="2" style="border:1px solid pink;" class="row" class="mt-2">
+
+                        <div class="col-md-3 border1 mb-3">
+                            <a href="#">
+                                <img src="../image/24.jpeg " alt="花 " width="100%">
+                                <p> 玻璃盖铸铁煲重庆鸡公煲锅烧鸡公专用锅鸡公煲铁煲电磁炉可用铁煲</p>
+                                <p>￥15.00</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 border1 mb-3">
+                            <a href="#">
+                                <img src="../image/25.jfif " alt="花 " width="100%">
+                                <p> 玻璃盖铸铁煲重庆鸡公煲锅烧鸡公专用锅鸡公煲铁煲电磁炉可用铁煲</p>
+                                <p>￥15.00</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 border1 mb-3">
+                            <a href="#">
+                                <img src="../image/22.jpeg" alt="花 " width="100%">
+                                <p> 玻璃盖铸铁煲重庆鸡公煲锅烧鸡公专用锅鸡公煲铁煲电磁炉可用铁煲</p>
+                                <p>￥15.00</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 border1 mb-3">
+                            <a href="#">
+                                <img src="../image/24.jpeg " alt="花 " width="100%">
+                                <p> 玻璃盖铸铁煲重庆鸡公煲锅烧鸡公专用锅鸡公煲铁煲电磁炉可用铁煲</p>
+                                <p>￥15.00</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 border1 mb-3">
+                            <a href="#">
+                                <img src="../image/25.jfif " alt="花 " width="100%">
+                                <p> 玻璃盖铸铁煲重庆鸡公煲锅烧鸡公专用锅鸡公煲铁煲电磁炉可用铁煲</p>
+                                <p>￥15.00</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 border1 mb-3">
+                            <a href="#">
+                                <img src="../image/26.jpeg " alt="花 " width="100%">
+                                <p> 玻璃盖铸铁煲重庆鸡公煲锅烧鸡公专用锅鸡公煲铁煲电磁炉可用铁煲</p>
+                                <p>￥15.00</p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div id="3" style="border:1px solid pink;" class="mt-2">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-3 p-2">
+                                <img src="../image/20.jfif" class=" img-thumbnail amplify-img " alt="... ">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 p-2 ">
+                                <img src="../image/21.jpg " class="img-thumbnail amplify-img " alt="... ">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 p-2 ">
+                                <img src="../image/22.jpeg " class="img-thumbnail amplify-img " alt="... ">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 p-2 ">
+                                <img src="../image/23.jfif " class="img-thumbnail amplify-img " alt="... ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
