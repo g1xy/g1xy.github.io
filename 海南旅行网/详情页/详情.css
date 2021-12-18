@@ -1,0 +1,106 @@
+#details .plant-method li {
+    padding: 1%;
+}
+
+#details .fee {
+    color: red;
+    font-size: 30px;
+}
+
+#details .btn-box .btn-same {
+    margin: 10px;
+    width: 220px;
+    height: 50px;
+    color: white;
+}
+
+#details .btn-box .btn-cart {
+    background-color: rgb(255, 153, 0);
+}
+
+#details .btn-box .btn-buy {
+    background-color: rgba(255, 68, 0, 0.897);
+}
+
+.top-ul-li {
+    font-size: 20px;
+    margin: 0px 15px 4px;
+}
+
+.carousel-indicators {
+    bottom: -37px;
+}
+
+.carousel-indicators li {
+    flex: auto;
+}
+
+.h-img {
+    height: 260px;
+}
+
+.line-h {
+    line-height: 37px;
+}
+
+.border-inp {
+    border: 1px solid pink;
+    outline: none;
+}
+
+.border-inp:focus {
+    box-shadow: 0 0 5px red;
+}
+
+.my-mb {
+    margin-bottom: 116px;
+}
+
+.look-all {
+    overflow: hidden;
+    border-bottom: 2px solid gray;
+}
+
+.look-all2 {
+    float: right;
+}
+
+.comments-section {
+    margin-top: 40px;
+}
+
+.pl-img {
+    border-radius: 50%;
+}
+
+.pl-h3 {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.pl-inp {
+    border: 1px solid pink;
+    outline: none;
+    width: 488px;
+}
+
+.pl-inp:focus {
+    box-shadow: 0 0 5px red;
+}
+
+.pl-btn {
+    background-color: pink;
+    color: white;
+    margin-left: 5px;
+    border: 1px solid pink;
+}
+
+.pl-div {
+    padding-bottom: 55px;
+    border-bottom: 1px solid gray;
+}
+
+.pl-div1 {
+    margin-top: 20px;
+}
