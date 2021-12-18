@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../后台/backstage.css">
+    <title>后台</title>
+</head>
+
+<body>
+    <div class="big-box">
+        <div class="back-big">
+            <div class="row padd">
+                <div class="col-md-3 back-x1">
+                    <nav class="navbar navbar-expand-lg navbar-light topone">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto wid-100">
+
+                                <li class="nav-item top-ul-li  bor-yuan">
+                                    <a class="nav-link" href="addGoods.html">添加商品</a>
+                                </li>
+                                <li class="nav-item top-ul-li bor-yuan">
+                                    <a class="nav-link" href="pullGoods.html">下架商品</a>
+                                </li>
+                                <li class="nav-item top-ul-li bor-yuan active">
+                                    <a class="nav-link" href="#">修改商品</a>
+                                </li>
+                                <li class="nav-item top-ul-li bor-yuan">
+                                    <a class="nav-link" href="../购物车/cart.html">购物车</a>
+                                </li>
+                                <li class="nav-item top-ul-li bor-yuan">
+                                    <a class="nav-link" href="#">我的通知</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-8">
+                    <div class="back2 m-2">
+                        <h3>需要修改的商品编号</h3>
+                        <div class="row">
+                            <div class="title bian">
+                                商品编号
+                            </div>
+                            <div class="content bian">
+                                <input type="text" placeholder="输入修改商品的编号">
+                            </div>
+                        </div>
+                        <h3>修改信息填写</h3>
+                        <div class="row">
+                            <div class="title bian">
+                                商品名称
+                            </div>
+                            <div class="content bian">
+                                <input type="text" placeholder="输入修改商品的名称">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="title bian">
+                                商品类型
+                            </div>
+                            <div class="content bian">
+                                <select name="类型" id="class">
+                                    <option value="热销">热销</option>
+                                    <option value="评分高">评分高</option>
+                                    <option value="新品">新品</option>
+                                    <option value="鲜花">鲜花</option>
+                                    <option value="干花">干花</option>
+                                    <option value="情侣">情侣</option>
+                                    <option value="清新空气">清新空气</option>
+                                    <option value="室内装饰">室内装饰</option>
+                                    <option value="玫瑰专场">玫瑰专场</option>
+                                </select>
+                            </div>
+                        </div>
+                        <h3>上传图片</h3>
+                        <hr size="1" width="100%">
+                        <div class="row xy-center">
+                            <button class="btn-img bian">上传图片</button>
+                            <img src="../image/flower4.jpg" alt="花" width="30%" class="bian">
+                        </div>
+                        <div class="row">
+                            <div class="title bian">
+                                商品价格
+                            </div>
+                            <div class="content bian">
+                                <input type="text" class="inp-line" placeholder="商品价格">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="title bian">
+                                库存数量
+                            </div>
+                            <div class="content bian">
+                                <input type="number" value="1">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
